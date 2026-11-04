@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0",
+  "id": "Dgvy1sNmhwU-b2",
+  "language": "de",
+  "level": "B2",
+  "source": {
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=Dgvy1sNmhwU",
+    "videoId": "Dgvy1sNmhwU",
+    "title": "How to Build Visibility in Meetings | Train Like It Matters",
+    "channel": "Career Conversations with Kathy",
+    "transcriptLanguage": "en",
+    "accessedAt": "2026-11-04T23:43:45+01:00"
+  },
+  "article": {
+    "title": "In Meetings sichtbar werden – ohne den Raum zu dominieren",
+    "summary": "Wie gezielte Vorbereitung und kleine, bewusste Beiträge die berufliche Sichtbarkeit stärken.",
+    "paragraphs": [
+      "Viele Berufstätige betrachten Meetings als Unterbrechung ihrer eigentlichen Arbeit. In zahlreichen Rollen sind Besprechungen jedoch ein zentraler Teil der Arbeit, weil dort Entscheidungen vorbereitet, Beziehungen aufgebaut und Leistungen sichtbar gemacht werden. Wer sich bewusst beteiligt, muss deshalb weder besonders laut sein noch ständig sprechen.",
+      "Hilfreich ist es, ein Meeting als Prozess mit mehreren Phasen zu betrachten. Vor der Besprechung kann man sich ein Ziel setzen und einen relevanten Beitrag vorbereiten. Zu Beginn sollte man aufmerksam präsent sein, während man im Mittelteil eine Frage stellt, eine Beobachtung teilt oder eine Entscheidung zusammenfasst. Am Ende kann man klären, wer welche Aufgabe übernimmt; nach dem Meeting lässt sich eine wichtige Vereinbarung schriftlich bestätigen.",
+      "Entscheidend ist nicht, alle diese Verhaltensweisen sofort perfekt zu beherrschen. Indem man für jedes Meeting nur eine kleine Handlung auswählt und sie regelmäßig übt, entwickelt man schrittweise mehr Sicherheit. Je zuverlässiger und klarer die eigenen Beiträge werden, desto eher verbinden andere die Person mit Kompetenz, Verantwortung und Einfluss.",
+      "Professionelle Sichtbarkeit entsteht somit nicht durch Selbstdarstellung, sondern durch Absicht und Verlässlichkeit. Wer anderen hilft, eine Diskussion besser zu verstehen oder den nächsten Schritt zu erkennen, wird wahrgenommen, obwohl er den Raum nicht dominiert. Kleine Wiederholungen können langfristig eine glaubwürdige Führungspräsenz aufbauen."
+    ]
+  },
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "Warum sind Meetings für viele Rollen ein wichtiger Teil der Arbeit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weil dort nur informelle Gespräche stattfinden."
+        },
+        {
+          "id": "b",
+          "text": "Weil dort Entscheidungen, Beziehungen und sichtbare Beiträge entstehen."
+        },
+        {
+          "id": "c",
+          "text": "Weil Einzelarbeit dort vollständig ersetzt wird."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Richtig: Meetings machen Beiträge, Entscheidungen und Zusammenarbeit sichtbar.",
+      "feedbackIncorrect": "Achte auf den ersten Absatz.",
+      "xp": 10
+    },
+    {
+      "id": "q2",
+      "prompt": "Welche Handlung passt zur Mitte eines Meetings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine relevante Frage stellen oder eine Beobachtung teilen."
+        },
+        {
+          "id": "b",
+          "text": "Das Meeting ohne Erklärung verlassen."
+        },
+        {
+          "id": "c",
+          "text": "Alle Beiträge anderer unterbrechen."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedbackCorrect": "Genau: Ein gezielter Beitrag schafft Sichtbarkeit ohne Dominanz.",
+      "feedbackIncorrect": "Gesucht ist eine konstruktive Beteiligung.",
+      "xp": 10
+    },
+    {
+      "id": "q3",
+      "prompt": "Wie sollte man neue Verhaltensweisen trainieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Fähigkeiten gleichzeitig perfektionieren."
+        },
+        {
+          "id": "b",
+          "text": "Nur dann sprechen, wenn man vollkommen sicher ist."
+        },
+        {
+          "id": "c",
+          "text": "Pro Meeting eine kleine Handlung auswählen und wiederholen."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedbackCorrect": "Richtig: Kleine, regelmäßige Wiederholungen bauen Sicherheit auf.",
+      "feedbackIncorrect": "Der Artikel empfiehlt einen schrittweisen Ansatz.",
+      "xp": 10
+    },
+    {
+      "id": "q4",
+      "prompt": "Wodurch entsteht glaubwürdige berufliche Sichtbarkeit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Durch laute Selbstdarstellung."
+        },
+        {
+          "id": "b",
+          "text": "Durch absichtsvolle und verlässliche Beiträge."
+        },
+        {
+          "id": "c",
+          "text": "Durch möglichst lange Wortbeiträge."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedbackCorrect": "Richtig: Klarheit und Verlässlichkeit wirken stärker als Dominanz.",
+      "feedbackIncorrect": "Lies den letzten Absatz noch einmal.",
+      "xp": 10
+    }
+  ],
+  "sentencePuzzles": [
+    {
+      "id": "p1",
+      "instruction": "Baue den Satz mit „indem“.",
+      "tokens": [
+        {
+          "id": "a",
+          "text": "Man entwickelt mehr Sicherheit,"
+        },
+        {
+          "id": "b",
+          "text": "indem man"
+        },
+        {
+          "id": "c",
+          "text": "eine kleine Handlung"
+        },
+        {
+          "id": "d",
+          "text": "regelmäßig übt."
+        }
+      ],
+      "solutionTokenIds": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "translation": "You develop more confidence by regularly practising one small action.",
+      "explanation": "„Indem“ beschreibt die Methode; das Verb steht am Ende des Nebensatzes.",
+      "xp": 15
+    },
+    {
+      "id": "p2",
+      "instruction": "Baue den Satz mit „je … desto …“.",
+      "tokens": [
+        {
+          "id": "a",
+          "text": "Je klarer"
+        },
+        {
+          "id": "b",
+          "text": "die eigenen Beiträge werden,"
+        },
+        {
+          "id": "c",
+          "text": "desto stärker"
+        },
+        {
+          "id": "d",
+          "text": "wächst die berufliche Sichtbarkeit."
+        }
+      ],
+      "solutionTokenIds": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "translation": "The clearer your contributions become, the more your professional visibility grows.",
+      "explanation": "„Je … desto …“ verbindet zwei proportionale Entwicklungen.",
+      "xp": 15
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v1",
+      "term": "die Sichtbarkeit",
+      "meaning": "visibility",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "exampleDe": "Gezielte Beiträge erhöhen ihre berufliche Sichtbarkeit."
+    },
+    {
+      "id": "v2",
+      "term": "die Besprechung",
+      "meaning": "meeting; discussion",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "exampleDe": "Vor der Besprechung bereitet er eine Frage vor."
+    },
+    {
+      "id": "v3",
+      "term": "sich beteiligen",
+      "meaning": "to participate",
+      "partOfSpeech": "verb",
+      "exampleDe": "Sie beteiligt sich mit einem kurzen, klaren Beitrag."
+    },
+    {
+      "id": "v4",
+      "term": "wahrgenommen werden",
+      "meaning": "to be noticed; perceived",
+      "partOfSpeech": "phrase",
+      "exampleDe": "Durch verlässliche Arbeit wird er als kompetent wahrgenommen."
+    },
+    {
+      "id": "v5",
+      "term": "die Verlässlichkeit",
+      "meaning": "reliability",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "exampleDe": "Verlässlichkeit schafft Vertrauen im Team."
+    },
+    {
+      "id": "v6",
+      "term": "eine Beobachtung teilen",
+      "meaning": "to share an observation",
+      "partOfSpeech": "phrase",
+      "exampleDe": "Im Meeting teilt sie eine wichtige Beobachtung."
+    },
+    {
+      "id": "v7",
+      "term": "die Vereinbarung",
+      "meaning": "agreement",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "exampleDe": "Nach dem Meeting bestätigt er die Vereinbarung schriftlich."
+    },
+    {
+      "id": "v8",
+      "term": "schrittweise",
+      "meaning": "gradually; step by step",
+      "partOfSpeech": "adverb",
+      "exampleDe": "Sie baut ihre Führungspräsenz schrittweise auf."
+    }
+  ],
+  "gamification": {
+    "initialHearts": 3,
+    "completionBonusXp": 30
+  },
+  "generation": {
+    "generatedAt": "2026-11-04T23:43:45+01:00",
+    "model": "Hermes Agent",
+    "promptVersion": "daily-videoquest-v1"
+  }
+}

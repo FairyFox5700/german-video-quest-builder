@@ -1,6 +1,21 @@
 {
   "schemaVersion": "1.0",
   "quests": [
-    {"id":"zyWx9KNz2oI-b2","title":"Führungskompetenz beginnt mit Präsenz","level":"B2","sourceTitle":"This is How I Learned Executive Presence","sourceUrl":"https://youtu.be/zyWx9KNz2oI","generatedAt":"2026-11-04T00:00:00Z"}
+    {
+      "id": "zyWx9KNz2oI-b2",
+      "title": "Führungskompetenz beginnt mit Präsenz",
+      "level": "B2",
+      "sourceTitle": "This is How I Learned Executive Presence",
+      "sourceUrl": "https://youtu.be/zyWx9KNz2oI",
+      "generatedAt": "2026-11-04T00:00:00Z"
+    },
+    {
+      "id": "Dgvy1sNmhwU-b2",
+      "title": "In Meetings sichtbar werden – ohne den Raum zu dominieren",
+      "level": "B2",
+      "sourceTitle": "How to Build Visibility in Meetings | Train Like It Matters",
+      "sourceUrl": "https://www.youtube.com/watch?v=Dgvy1sNmhwU",
+      "generatedAt": "2026-11-04T23:43:45+01:00"
+    }
   ]
 }
