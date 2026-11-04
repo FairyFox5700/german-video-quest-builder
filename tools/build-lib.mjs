@@ -1,0 +1,2 @@
+import { cp,mkdir,rm,writeFile } from 'node:fs/promises';import { join } from 'node:path';
+export async function buildSite(root=process.cwd()){const out=join(root,'dist');await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});await cp(join(root,'site'),out,{recursive:true});await cp(join(root,'data'),join(out,'data'),{recursive:true});await writeFile(join(out,'.nojekyll'),'');return out}

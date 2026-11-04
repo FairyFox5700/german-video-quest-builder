@@ -1,0 +1,11 @@
+{
+  "name": "german-video-quest-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node tools/build.mjs",
+    "validate": "node tools/validate-all.mjs"
+  }
+}

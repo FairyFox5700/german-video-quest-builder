@@ -1,0 +1,2 @@
+import { readdir,readFile } from 'node:fs/promises';import { join } from 'node:path';import { validateQuest } from './validate-quest.mjs';
+const root=process.cwd();const dir=join(root,'data','quests');let failed=false;for(const f of await readdir(dir)){if(!f.endsWith('.json'))continue;const q=JSON.parse(await readFile(join(dir,f),'utf8'));const e=validateQuest(q);if(e.length){failed=true;console.error(`${f}:\n- ${e.join('\n- ')}`)}}if(failed)process.exit(1);console.log('All quests valid.');
