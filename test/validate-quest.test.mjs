@@ -13,6 +13,7 @@ const valid = {
 };
 
 test('accepts a complete valid quest',()=>assert.deepEqual(validateQuest(valid),[]));
+test('accepts a private uploaded video without publishing its file',()=>{const q=structuredClone(valid);q.id='upload-demo-b2';q.source={type:'upload',title:'Telegram video',accessedAt:'2026-11-04T00:00:00Z'};assert.deepEqual(validateQuest(q),[])});
 test('rejects unsupported level',()=>{const q=structuredClone(valid);q.level='C2';assert.match(validateQuest(q).join('\n'),/level/)});
 test('rejects quiz answer that does not resolve',()=>{const q=structuredClone(valid);q.quiz[0].correctOptionId='missing';assert.match(validateQuest(q).join('\n'),/correctOptionId/)});
 test('rejects puzzle solution that is not an exact permutation',()=>{const q=structuredClone(valid);q.sentencePuzzles[0].solutionTokenIds=['a','a'];assert.match(validateQuest(q).join('\n'),/permutation/)});

@@ -51,7 +51,7 @@ Every push to `main` runs tests, validates all quest data, builds `dist/`, and d
 
 ## Automation boundary
 
-GitHub Pages hosts the finished game. Lesson generation is performed by Hermes, which can accept a Telegram video or YouTube link. GitHub Models was retired on July 30, 2026, so this repository does not pretend that GitHub Actions has a built-in model API. No model key or transcript is exposed in the public site, and raw transcripts are not committed.
+GitHub Pages hosts the finished game. Lesson generation is performed by Hermes, which can accept a Telegram video or YouTube link. For a private Telegram upload, only the derived lesson is published—the media file and transcript stay out of GitHub. GitHub Models was retired on July 30, 2026, so this repository does not pretend that GitHub Actions has a built-in model API. No model key or transcript is exposed in the public site, and raw transcripts are not committed.
 
 ## Privacy and rights
 

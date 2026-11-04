@@ -9,8 +9,9 @@ export function validateQuest(q){
  if(!text(q.id))e.push('id is required');
  if(q.language!=='de')e.push('language must be de');
  if(!levels.has(q.level))e.push('level must be A2, B1, B2, or C1');
- if(!q.source||q.source.type!=='youtube'||!/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//.test(q.source.url||''))e.push('source must contain a YouTube URL');
- if(!/^[A-Za-z0-9_-]{11}$/.test(q.source?.videoId||''))e.push('source.videoId must be 11 characters');
+ if(!q.source||!['youtube','upload'].includes(q.source.type))e.push('source.type must be youtube or upload');
+ if(q.source?.type==='youtube'&&!/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//.test(q.source.url||''))e.push('YouTube source must contain a YouTube URL');
+ if(q.source?.type==='youtube'&&!/^[A-Za-z0-9_-]{11}$/.test(q.source.videoId||''))e.push('source.videoId must be 11 characters');
  if(!text(q.source?.title)||!text(q.source?.accessedAt))e.push('source title and accessedAt are required');
  if(!text(q.article?.title)||!Array.isArray(q.article?.paragraphs)||q.article.paragraphs.length<3||q.article.paragraphs.some(x=>!text(x)))e.push('article needs a title and at least 3 paragraphs');
  if(!Array.isArray(q.quiz)||q.quiz.length<4)e.push('quiz needs at least 4 questions');
