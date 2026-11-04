@@ -40,14 +40,14 @@ Requires Node.js 22+ and no third-party packages.
 npm test
 npm run validate
 npm run build
-python -m http.server 8765 --directory dist
+python -m http.server 8765 --directory docs
 ```
 
 Open <http://localhost:8765>.
 
 ## Deployment
 
-Every push to `main` runs tests, validates all quest data, builds `dist/`, and deploys it through GitHub Pages. Quest progress stays in the learner's browser using versioned `localStorage`.
+Every push to `main` runs tests and validates all quest data. The committed `docs/` build is deployed by GitHub Pages from `main`, avoiding any server dependency. Quest progress stays in the learner's browser using versioned `localStorage`.
 
 ## Automation boundary
 

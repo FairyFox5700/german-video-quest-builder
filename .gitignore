@@ -1,4 +1,3 @@
-dist/
 node_modules/
 .browser-check/
 *.log

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "id": "zyWx9KNz2oI-b2",
+  "language": "de",
+  "level": "B2",
+  "source": {"type":"youtube","url":"https://youtu.be/zyWx9KNz2oI","videoId":"zyWx9KNz2oI","title":"This is How I Learned Executive Presence","channel":"Joseph Tsar","transcriptLanguage":"en","accessedAt":"2026-11-04T00:00:00Z"},
+  "article": {"title":"Führungskompetenz beginnt mit Präsenz","summary":"Wie Gelassenheit, Körpersprache, Autorität und Überzeugung trainiert werden können.","paragraphs":["Executive Presence hängt nicht nur vom Fachwissen ab, sondern vor allem davon, wie eine Person unter Druck denkt, spricht und handelt. Wer auch in schwierigen Situationen ruhig bleibt, wirkt kompetenter und gewinnt leichter das Vertrauen anderer.","Eine überzeugende Präsenz besteht aus vier Eigenschaften: Gelassenheit, körperlicher Präsenz, Autorität und innerer Überzeugung. Gelassenheit bedeutet, die eigenen Emotionen bewusst zu kontrollieren, obwohl der Druck steigt. Indem man vor einem Gespräch eine klare Absicht formuliert, kann man konzentrierter kommunizieren.","Während unsichere Personen häufig wegschauen oder unruhige Bewegungen machen, schenken präsente Führungskräfte ihrem Gegenüber die volle Aufmerksamkeit. Ein ruhiger Blick, eine stabile Haltung und bewusste Pausen vermitteln Autorität, ohne dass man dominant auftreten muss.","Überzeugung entsteht, wenn man nicht nur weiß, was man sagen möchte, sondern auch versteht, warum die eigene Botschaft wichtig ist. Je stärker man an seine Aussage glaubt, desto glaubwürdiger wirkt man. Executive Presence ist deshalb keine angeborene Eigenschaft, sondern eine Fähigkeit, die durch Übung entwickelt werden kann."]},
+  "quiz": [
+    {"id":"q1","prompt":"Was ist die Hauptaussage des Artikels?","options":[{"id":"a","text":"Präsenz ist angeboren."},{"id":"b","text":"Präsenz kann gezielt trainiert werden."},{"id":"c","text":"Nur Fachwissen schafft Autorität."}],"correctOptionId":"b","feedbackCorrect":"Genau: Die vier Qualitäten lassen sich üben.","feedbackIncorrect":"Achte auf den letzten Satz des Artikels.","xp":10},
+    {"id":"q2","prompt":"Was hilft dabei, unter Druck konzentriert zu bleiben?","options":[{"id":"a","text":"Eine klare Absicht formulieren"},{"id":"b","text":"Schneller sprechen"},{"id":"c","text":"Blickkontakt vermeiden"}],"correctOptionId":"a","feedbackCorrect":"Richtig: Eine klare Absicht lenkt die Kommunikation.","feedbackIncorrect":"Der zweite Absatz enthält den Hinweis.","xp":10},
+    {"id":"q3","prompt":"Welche Körpersprache vermittelt Autorität?","options":[{"id":"a","text":"Unruhige Bewegungen"},{"id":"b","text":"Ein ruhiger Blick und eine stabile Haltung"},{"id":"c","text":"Dominantes Unterbrechen"}],"correctOptionId":"b","feedbackCorrect":"Richtig: Ruhe wirkt stärker als Dominanz.","feedbackIncorrect":"Autorität muss nicht dominant wirken.","xp":10},
+    {"id":"q4","prompt":"Wann wirkt eine Aussage besonders glaubwürdig?","options":[{"id":"a","text":"Wenn sie möglichst lang ist"},{"id":"b","text":"Wenn man sie auswendig gelernt hat"},{"id":"c","text":"Wenn man selbst von ihr überzeugt ist"}],"correctOptionId":"c","feedbackCorrect":"Richtig: Innere Überzeugung stärkt die Wirkung.","feedbackIncorrect":"Denke an das Muster „je … desto …“.","xp":10}
+  ],
+  "sentencePuzzles": [
+    {"id":"p1","instruction":"Baue den Satz mit „je … desto …“.","tokens":[{"id":"a","text":"Je stärker"},{"id":"b","text":"man an seine Aussage glaubt,"},{"id":"c","text":"desto glaubwürdiger"},{"id":"d","text":"wirkt man auf andere."}],"solutionTokenIds":["a","b","c","d"],"translation":"The more strongly one believes in one's statement, the more credible one appears to others.","explanation":"„Je … desto …“ verbindet zwei proportionale Entwicklungen.","xp":15},
+    {"id":"p2","instruction":"Baue einen Satz mit „obwohl“.","tokens":[{"id":"a","text":"Eine Führungskraft bleibt ruhig,"},{"id":"b","text":"obwohl"},{"id":"c","text":"der Druck"},{"id":"d","text":"steigt."}],"solutionTokenIds":["a","b","c","d"],"translation":"A leader remains calm although the pressure increases.","explanation":"Nach „obwohl“ steht das konjugierte Verb am Ende des Nebensatzes.","xp":15}
+  ],
+  "vocabulary": [
+    {"id":"v1","term":"die Gelassenheit","meaning":"composure; calmness","partOfSpeech":"noun","article":"die","exampleDe":"Gelassenheit hilft ihr, unter Druck klar zu denken."},
+    {"id":"v2","term":"die Überzeugung","meaning":"conviction","partOfSpeech":"noun","article":"die","exampleDe":"Er spricht mit innerer Überzeugung."},
+    {"id":"v3","term":"glaubwürdig","meaning":"credible","partOfSpeech":"adjective","exampleDe":"Ihre ruhige Antwort wirkt glaubwürdig."},
+    {"id":"v4","term":"auftreten","meaning":"to present oneself; appear","partOfSpeech":"verb","exampleDe":"Sie tritt selbstbewusst und freundlich auf."},
+    {"id":"v5","term":"unter Druck stehen","meaning":"to be under pressure","partOfSpeech":"phrase","exampleDe":"Auch wenn er unter Druck steht, bleibt er ruhig."},
+    {"id":"v6","term":"die Körpersprache","meaning":"body language","partOfSpeech":"noun","article":"die","exampleDe":"Eine offene Körpersprache schafft Vertrauen."},
+    {"id":"v7","term":"die Absicht","meaning":"intention","partOfSpeech":"noun","article":"die","exampleDe":"Vor dem Gespräch formuliert sie ihre Absicht."},
+    {"id":"v8","term":"vermitteln","meaning":"to convey","partOfSpeech":"verb","exampleDe":"Bewusste Pausen vermitteln Autorität."}
+  ],
+  "gamification":{"initialHearts":3,"completionBonusXp":30},
+  "generation":{"generatedAt":"2026-11-04T00:00:00Z","model":"Hermes Agent","promptVersion":"1"}
+}
