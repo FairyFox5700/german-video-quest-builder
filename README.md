@@ -13,6 +13,7 @@ Hermes extracts the main ideas, creates a level-appropriate German article, four
 ## What learners get
 
 - German article grounded in the source video
+- selectable German words or phrases with instant English translation
 - comprehension quiz with feedback
 - sentence-order exercises for complex grammar
 - vocabulary flip cards
